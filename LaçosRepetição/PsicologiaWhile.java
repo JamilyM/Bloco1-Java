@@ -23,25 +23,21 @@ public class PsicologiaWhile {
 			op = leia.nextInt();
 			
 			if (idade<=18 && op == 1) {
-				
 				contcalma++;
 				
 			}if(idade>=40 && op == 2){
-				
 				contnervosa++;
 				
 		    }if (op == 1) {
 		    	contpcalma++;
 		    	
 		    }if (sexo == 1 && op == 2) {
-		    	
 		    	contnervosa++;
 		    	
 		    }if (sexo == 2 && op == 3) {
-		    	
 		    	contagressivo++;
-		    }if (sexo == 3 && op == 1) {
 		    	
+		    }if (sexo == 3 && op == 1) {
 		    	contocalma++;
 		    	
 		    }
@@ -50,18 +46,12 @@ public class PsicologiaWhile {
 		}
 		
 		
-		System.out.println("Pessoas calma " 
-		+ contpcalma);
-		System.out.println("Mulheres nervosas " 
-		+ contnervosa);
-		System.out.println("Homem agressivo " 
-		+ contagressivo);
-		System.out.println("Outro calmos " 
-		+ contocalma);
-		System.out.println("Maiores de 40 anos, que são nervosas " 
-		+ contnervosa);
-		System.out.println("Menores de 18 anos, que são calmas " 
-		+ contcalma);
+		System.out.println("Pessoas calma " + contpcalma);
+		System.out.println("Mulheres nervosas " + contnervosa);
+		System.out.println("Homem agressivo " + contagressivo);
+		System.out.println("Outro calmos " + contocalma);
+		System.out.println("Maiores de 40 anos, que são nervosas " + contnervosa);
+		System.out.println("Menores de 18 anos, que são calmas " + contcalma);
 		
 		leia.close();
 		
